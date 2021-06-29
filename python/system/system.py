@@ -33,7 +33,7 @@ class base_system(object):
         self.coll_counter = 0
 
     def box_collision(self):
-        """Test if the bloxes had collied."""
+        """Test if the boxes had collied."""
         border_box_pos_1 = self.box_1.x + self.box_1.width/2
         border_box_pos_2 = self.box_2.x - self.box_2.width/2
 
@@ -43,7 +43,7 @@ class base_system(object):
             return False
 
     def wall_collision(self):
-        """Test if the bloxes had collied."""
+        """Test if the boxes had collied."""
         border_box_pos_1 = self.box_1.x - self.box_1.width/2
 
         if (border_box_pos_1) <= 0:
