@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body style="height: 100%">
+
+    <div style="height: 100%; width: 100%; margin: 0px; padding: 0px; position: relative;">
+      <canvas id="Draw" style="width: 40%; box-sizing: border-box; border: 2px solid #696767; position: absolute;"></canvas>
+      <div style="width: 50%;">
+
+        <h1 id="Collisions"></h1>
+
+      </div>
+    </div>
+
+    <script src="/box/box.js"></script>
+    <script src="/system/system.js"></script>
+    <script src="/main.js"></script>
+    <script>
+       var timer = setInterval(function () {
+        setFrictionReset();
+       }, 5);
+     </script>
+
+  </body>
+</html>
